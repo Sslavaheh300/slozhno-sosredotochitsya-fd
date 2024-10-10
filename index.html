@@ -4,27 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/dark.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/light.css" />
+    <meta name="color-scheme" content="light dark">
     <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/light.css" />
     <title>Сложно сосредоточиться</title>
   </head>
   <body class="page">
+
     <header class="header decorated-zone">
-      <div class="cover-image">
-        <div class="buld">REC<div class="buld-ellipse"><div class="ellipse"></div><div class="ellipse-blur"></div></div></div>
-      <div class="buld-two"></div>
-      </div>
+      <div class="buld buld-top"><p class="buld-text">REC</p><div class="buld-ellipse"><div class="ellipse"></div><div class="ellipse-blur"></div></div></div>
+      <div class="buld buld-bottom"></div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
             >
-              День
+              день
             </button>
           </li>
           <li class="header__theme-menu-item">
@@ -32,26 +32,27 @@
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
               disabled
             >
-              Авто
+              авто
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
-              Неон
+              неон
             </button>
           </li>
         </ul>
       </nav>
       <div class="cover-info">
-        <h1 class="cover_text-head"><span>no</span> <span>focus</span></h1>
-      <div class="cover_text background-color-text">Что делать, когда не можешь делать ничего
+        <h1 class="cover text-head"><span>no</span> <span>focus</span></h1>
+      <h2 class="cover_text">Что делать, когда не можешь делать ничего
         Или почему нам так сложно сконцентрироваться, особенно когда очень надо</div>
-      </div>
+      </h2>
     </header>
+
     <main class="main">
-      <div class="first-info info">
+      <section class="info">
         <h2 class="topic-info">Почему сосредоточиться так сложно</h2>
         <div class="paragraphs-info">
           <div class="paragraph-blocks">
@@ -71,8 +72,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="second-info info">
+      </section>
+      <section class="info">
         <h2 class="topic-info">Что снижает концентрацию внимания?</h2>
         <div class="paragraphs-info">
           <div class="paragraph-blocks">
@@ -98,8 +99,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="third-info info">
+      </section>
+      <section class="info">
         <h2 class="topic-info">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
         <div class="paragraphs-info">
           <div class="paragraph-blocks">
@@ -136,27 +137,36 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="info">
-        <div class="paragraphs-info">
-          <div class="paragraph-blocks">
-            <h2 class="topic-text">А можно в картинках?</h2>
-            <div class="photos">
-              <div class="first-ph"></div>
-              <div class="second-ph"></div>
-              <div class="third-ph"></div>
-              <div class="fourth-ph"></div>
-              <div class="fifth-ph"></div>
-            </div>
-          </div>
+      </section>
+    </main>
+
+    <section class="info-img">
+      <h2 class="topic-text">А можно в картинках?</h2>
+      <div class="photos">
+        <div class="first">
+          <img src="/images/sunset.png" alt="sunset" class="photo">
+        </div>
+        <div class="second">
+          <img src="/images/ice-cream.png" alt="ice-cream" class="photo">
+        </div>
+        <div class="third">
+          <img src="/images/tape.png" alt="tape" class="photo">
+        </div>
+        <div class="fouth">
+          <img src="/images/books.png" alt="books" class="photo">
+        </div>
+        <div class="fifth">
+          <img src="/images/street.png" alt="street" class="photo">
         </div>
       </div>
-    </main>
+      </section>
+
     <footer class="footer">
-      <div class="first-buld"></div>
-      <h2 class="footer_text">focus</h2>
-      <div class="second-buld"></div>
+      <h2 class="footer_text text-head">focus</h2>
+      <div class="buld buld-top"><div class="buld-ellipse"></div></div>
+      <div class="buld buld-bottom"></div>
     </footer>
+
     <script src="./scripts/script.js"></script>
   </body>
 </html>
