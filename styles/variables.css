@@ -3,19 +3,14 @@
   и их переопределение под различные устройства
 */
 :root{
-  --image-color-dark: url(../images/cover-image-dark.png);  
-  --image-color-light: url(../images/cover-image-light.png);
-
-  --cover_text-head-color-dark: #DB00FF;
-  --cover_text-head-color-light: #FFC2E6;
-  --text-color-dark: #FF0070;
-  --text-color-light: #353430;
-  --cover_text-head-shadow-color-dark: #FF0070;
-  --cover_text-head-shadow-color-light: #FF8DCB;
-  --background-color-text-dark: #FF0070; 
-  --background-color-text-light: #FF8DCB;
-  --cover-text-dark: #000028;
-  --cover-text-light: #FFF1F7;
-  --paragraph-text-color-dark: #F1B2CE;
-  --paragraph-text-color-light: #353430;
+  --buld-color: #FF0070;
+  --back-color: #000028;
+  --cover-image: url(../images/cover-image-dark.png);
+  --first-text-color: #FF0070;
+  --first-text-color-translucent: rgba(255, 0, 112, 0.5);
+  --head-text-color: #DB00FF;
+  --shadow-text: #FF0070;
+  --background-text-color: #FF0070;
+  --second-text-color: #000028;
+  --third-text-color: #F1B2CE;
 }
