@@ -5,112 +5,33 @@
 */
 
 .page.theme_light {
-  background-color: var(--cover-text-light);
+  color-scheme: light;
+  --buld-color: #353430;
+  --back-color: #FFF1F7;
+  --cover-image: url(../images/cover-image-light.png);
+  --first-text-color: #353430;
+  --first-text-color-translucent: rgba(50, 49, 45, 0.4);
+  --head-text-color: #FFC2E6;
+  --shadow-text: #FF0070;
+  --background-text-color: #FF8DCB;
+  --second-text-color: #353430;
+  --third-text-color: #353430; 
 }
 
-.page.theme_light>header>.cover-image>.buld{
-  color: var(--text-color-light);
-}
+/* Остальные стили */
 
-.page.theme_light>header>.cover-image>.buld>.buld-ellipse{
-  color: var(--text-color-light);
-  border-top: 1px solid var(--text-color-light);
-  border-right: 1px solid var(--text-color-light);
-}
-
-.page.theme_light>header>.cover-image>.buld>.buld-ellipse>.ellipse{
-  background: var(--text-color-light);
-  border-radius: 50%;
-}
-
-.page.theme_light>header>.cover-image>.buld>.buld-ellipse>.ellipse-blur{
-  position: absolute;
-  background: var(--text-color-light);
-  width: 12px;
-  height: 12px;
-  filter: blur(4px);
-}
-
-.page.theme_light>header>.cover-image>.buld-two{
-  border-bottom: 1px solid var(--text-color-light);
-  border-left: 1px solid var(--text-color-light);
-}
-
-.page.theme_light>header>.cover-info>.cover_text-head{
-  color: var(--cover_text-head-color-light);
-  text-shadow: 4px 4px var(--cover_text-head-shadow-color-light);
-}
-
-.page.theme_light>header>.cover-info>.cover-text{
-  color: var(--cover-text-light);
-}
-
-.page.theme_light>header>.cover-info>.background-color-text{
-  background-color: var(--background-color-text-light);
-}
-
-.page.theme_light>header>.cover-image{
-  background-image: var(--image-color-light);
-}
-
-.page.theme_light>.header>.header__theme-menu>.header__theme-menu-list>.header__theme-menu-item>.header__theme-menu-button{
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  color: var(--text-color-light);
-}
-
-.page.theme_light>.header>.header__theme-menu>.header__theme-menu-list>.header__theme-menu-item>.header__theme-menu-button_active{
-  border: 1px solid var(--text-color-light);
-}
-
-.page.theme_light>.header>.header__theme-menu>.header__theme-menu-list>.header__theme-menu-item:hover{
-  border: 1px solid rgba(50, 49, 45, 0.4);
-}
-
-.page.theme_light>.header>.header__theme-menu>.header__theme-menu-list>.header__theme-menu-item:focus{
-  border-bottom: 1px solid var(--text-color-light);
-}
-
-.page.theme_light>.main>.info>.topic-info{
-  color: var(--text-color-light);
-}
-.page.theme_light>.main>.info>.paragraphs-info>div>.topic-text{
-  background-color: var(--background-color-text-light);
-  color: var(--cover-text-light);
-}
-
-.page.theme_light>.main>.info>.paragraphs-info>div>.paragraph-text{
-  color: var(--paragraph-text-color-light);
-}
-
-.page.theme_light>.main>.info>.paragraphs-info>div>.paragraph-text>.link{
-  color: var(--paragraph-text-color-light);
-  text-shadow: 2px 2px var( --text-color-light);
-}
-
-.page.theme_light>.main>.info>.paragraphs-info>div>.paragraph-text>.link:hover{
-  color: var(--paragraph-text-color-light);
-  text-shadow: 2px 2px var( --text-color-light);
-  border-bottom: 2px solid var(--paragraph-text-color-light);
-}
-
-.page.theme_light>.main>.info>.paragraphs-info>div>.paragraph-text>.link:focus{
-  color: var(--paragraph-text-color-light);
-  text-shadow: 2px 2px var( --text-color-light);
-  border: 1px solid var(--paragraph-text-color-light);
-}
-
-.page.theme_light>.footer>.first-buld{
-  border-top: 1px solid var(--text-color-light);
-  border-right: 1px solid var(--text-color-light);
-}
-
-.page.theme_light>.footer>.footer_text{
-  color: var(--cover_text-head-color-light);
-  text-shadow: 2px 2px var(--cover_text-head-shadow-color-light);
-}
-
-.page.theme_light>.footer>.second-buld{
-  border-bottom: 1px solid var(--text-color-light);
-  border-left: 1px solid var(--text-color-light);
+@media (prefers-color-scheme: light) {
+:root {
+  color-scheme: light;
+  --buld-color: #353430;
+  --back-color: #FFF1F7;
+  --cover-image: url(../images/cover-image-light.png);
+  --first-text-color: #353430;
+  --first-text-color-translucent: rgba(50, 49, 45, 0.4);
+  --head-text-color: #FFC2E6;
+  --shadow-text: #FF0070;
+  --background-text-color: #FF8DCB;
+  --second-text-color: #353430;
+  --third-text-color: #353430;
+  }
 }
