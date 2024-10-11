@@ -20,6 +20,7 @@ button,
   height: 100vh;
 
   display: grid;
+  justify-content: center;
 }
 
 .header{
@@ -39,7 +40,7 @@ button,
 }
 
 .buld-text{
-  color: var(--first-text-color);
+  color: var(--buld-text-color);
   font-weight: 400;
   font-size: 18px;
 }
@@ -66,7 +67,7 @@ button,
 }
 
 .ellipse{
-  background-color: var(--first-text-color);
+  background-color: var(--buld-text-color);
   width: 9px;
   height: 9px;
   border-radius: 50%;
@@ -74,7 +75,7 @@ button,
 
 .ellipse-blur{
   position: absolute; 
-  background: var(--first-text-color); 
+  background: var(--buld-text-color); 
   width: 12px; 
   height: 12px; 
   filter: blur(4px);
@@ -265,10 +266,6 @@ button,
 }
 
 @media (min-width: 1024px) {
-  body{
-    width: 1024px;
-  }
-
   .decorated-zone{
     width: 1024px;
     height: 768px;
@@ -296,17 +293,17 @@ button,
     grid-template-rows: 260px 315px 428px;
   }
 
-  .first{
+  .sunset{
     grid-column: 1/3;
     grid-row: 1/2;
   }
   
-  .second{
+  .ice-cream{
     grid-column: 3/4;
     grid-row: 1/3;
   }
 
-  .third{
+  .tape{
     grid-column: 1/2;
     grid-row: 2/4;
   }
@@ -404,17 +401,17 @@ button,
     grid-template-rows: 192px 230px 318px;
   }
 
-  .first{
+  .sunset{
     grid-column: 1/3;
     grid-row: 1/2;
   }
   
-  .second{
+  .ice-cream{
     grid-column: 3/4;
     grid-row: 1/3;
   }
 
-  .third{
+  .tape{
     grid-column: 1/2;
     grid-row: 2/4;
   }
@@ -435,10 +432,7 @@ button,
   }
 }
 
-@media (375px <= width < 768px)  {
-  body{
-    width: 375px;
-  }
+@media (width < 768px)  {
 
   .decorated-zone{
     width: 375px;
@@ -536,17 +530,17 @@ button,
     gap: 10px;
   }
 
-  .first{
+  .sunset{
     width: 355px;
     height: 142px;
   }
   
-  .second{
+  .ice-cream{
     width: 355px;
     height: 355px;
   }
 
-  .third{
+  .tape {
     width: 355px;
     height: 237px;
   }
