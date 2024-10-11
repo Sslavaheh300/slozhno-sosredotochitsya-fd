@@ -16,6 +16,7 @@
   --background-text-color: #FF8DCB;
   --second-text-color: #353430;
   --third-text-color: #353430; 
+  --buld-text-color: rgba(0,0,0,0);
 }
 
 /* Остальные стили */
@@ -33,5 +34,6 @@
   --background-text-color: #FF8DCB;
   --second-text-color: #353430;
   --third-text-color: #353430;
+  --buld-text-color: rgba(0,0,0,0);
   }
 }
