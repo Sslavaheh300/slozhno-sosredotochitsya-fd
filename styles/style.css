@@ -138,7 +138,13 @@ button,
 }
 
 .text-head{
-  font-size: clamp(116px, 74%, 157px);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+
+@media (min-width: 768px){
+  .text-head{
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
 
 .cover_text{
@@ -162,7 +168,8 @@ button,
 .info:not(:first-child):not(:last-child){
   display: grid;
   .paragraphs-info{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
     .paragraph-blocks{
       display: inline;
       width: 315px;
@@ -178,14 +185,14 @@ button,
   display: flex;
   .paragraphs-info{
     .paragraph-blocks{
-      width: 649px; /*сделать clamp*/
+      width: 649px;
     }
   }
 }
 
 .topic-info{
   color: var(--first-text-color);
-  width: 315px; /*сделать clamp*/
+  width: 315px;
   font-weight: 700;
   font-size: 18px;
 }
@@ -259,6 +266,7 @@ button,
   text-shadow: 2px 2px var(--shadow-text);
 }
 
+.header,
 .main,
 .footer,
 .info-img{
@@ -384,7 +392,7 @@ button,
     display: flex;
     .paragraphs-info{
       .paragraph-blocks{
-        width: 472px; /*сделать clamp*/
+        width: 472px;
       }
     }
   }
@@ -512,7 +520,7 @@ button,
     display: grid;
     .paragraphs-info{
       .paragraph-blocks{
-        width: 355px; /*сделать clamp*/
+        width: 355px;
       }
     }
   }
