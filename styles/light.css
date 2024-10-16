@@ -1,40 +1,41 @@
 /*
-  Специальнутся стили, которые нужно переопределить принудительно,
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
 
 .page.theme_light {
   color-scheme: light;
   --buld-color: #353430;
-  --back-color: #FFF1F7;
+  --back-color: #fff1f7;
   --cover-image: url(../images/cover-image-light.png);
   --first-text-color: #353430;
   --first-text-color-translucent: rgba(50, 49, 45, 0.4);
-  --head-text-color: #FFC2E6;
-  --shadow-text: #FF0070;
-  --background-text-color: #FF8DCB;
+  --head-text-color: #ffc2e6;
+  --shadow-text: #ff0070;
+  --background-text-color: #ff8dcb;
   --second-text-color: #353430;
-  --third-text-color: #353430; 
-  --buld-text-color: rgba(0,0,0,0);
+  --third-text-color: #353430;
+  --buld-text-color: rgba(0, 0, 0, 0);
   --rec-img: none;
 }
 
 /* Остальные стили */
 
 @media (prefers-color-scheme: light) {
-:root {
-  color-scheme: light;
-  --buld-color: #353430;
-  --back-color: #FFF1F7;
-  --cover-image: url(../images/cover-image-light.png);
-  --first-text-color: #353430;
-  --first-text-color-translucent: rgba(50, 49, 45, 0.4);
-  --head-text-color: #FFC2E6;
-  --shadow-text: #FF0070;
-  --background-text-color: #FF8DCB;
-  --second-text-color: #353430;
-  --third-text-color: #353430;
-  --buld-text-color: rgba(0,0,0,0);
-  --rec-img: none;
+  :root {
+    color-scheme: light;
+    --buld-color: #353430;
+    --back-color: #fff1f7;
+    --cover-image: url(../images/cover-image-light.png);
+    --first-text-color: #353430;
+    --first-text-color-translucent: rgba(50, 49, 45, 0.4);
+    --head-text-color: #ffc2e6;
+    --shadow-text: #ff0070;
+    --background-text-color: #ff8dcb;
+    --second-text-color: #353430;
+    --third-text-color: #353430;
+    --buld-text-color: rgba(0, 0, 0, 0);
+    --rec-img: none;
   }
 }
