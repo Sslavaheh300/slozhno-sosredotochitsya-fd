@@ -9,7 +9,8 @@ h2{
 }
 
 button,
-.buld-text{
+.buld-text,
+.rec::before{
   font-family: "IBM Plex Mono", "Bold", "Regular";
 }
 
@@ -48,37 +49,24 @@ button,
 .buld-top{
   top: 20px;
   right: 20px;
-}
-
-.buld-ellipse{
-  position: relative;
+  position: absolute;
   border-top: 1px solid var(--buld-color);
   border-right: 1px solid var(--buld-color);
   width: 25px;
   height: 25px;
 }
 
-.ellipse,
-.ellipse-blur{
+.rec::before{
+  content: 'REC';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.ellipse{
-  background-color: var(--buld-text-color);
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-}
-
-.ellipse-blur{
-  position: absolute; 
-  background: var(--buld-text-color); 
-  width: 12px; 
-  height: 12px; 
-  filter: blur(4px);
+  right: 8px;
+  font-size: 18px;
+  color: var(--buld-text-color);
+  background-image: var(--rec-img);
+  padding-right: 20px;
+  background-position: center right;
+  background-size: 9px;
+  background-repeat: no-repeat;
 }
 
 .buld-bottom{
