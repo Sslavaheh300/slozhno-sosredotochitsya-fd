@@ -16,6 +16,7 @@ button,
 
 .page {
   font-family: "IBM Plex Mono", "Bold", "Regular";
+  background-attachment: fixed;
 
   margin: 0px;
   height: 100vh;
