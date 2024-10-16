@@ -1,7 +1,8 @@
 /*
   Переменные для вашего проекта
+  и их переопределение под различные устройства
 */
-:root{
+:root {
   --buld-color: #FF0070;
   --back-color: #000028;
   --cover-image: url(../images/cover-image-dark.png);
