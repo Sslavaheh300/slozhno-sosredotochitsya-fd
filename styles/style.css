@@ -275,7 +275,7 @@ button,
 
   .main {
     display: grid;
-    gap: 68px;
+    gap: 88px;
   }
 
   .info:not(:first-child):not(:last-child) {
