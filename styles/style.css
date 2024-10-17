@@ -158,7 +158,6 @@ button,
   display: grid;
   .paragraphs-info {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
     .paragraph-blocks {
       display: inline;
       width: 315px;
@@ -279,6 +278,12 @@ button,
     gap: 68px;
   }
 
+  .info:not(:first-child):not(:last-child){
+    .paragraphs-info{
+      grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
+    }
+  }
+
   .info-img {
     padding-top: 55px;
     padding-left: 20px;
@@ -326,10 +331,6 @@ button,
 }
 
 @media (768px <= width < 1024px) {
-  body {
-    width: 768px;
-  }
-
   .decorated-zone {
     width: 768px;
     height: 1024px;
