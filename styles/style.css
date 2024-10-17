@@ -278,8 +278,8 @@ button,
     gap: 68px;
   }
 
-  .info:not(:first-child):not(:last-child){
-    .paragraphs-info{
+  .info:not(:first-child):not(:last-child) {
+    .paragraphs-info {
       grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
     }
   }
@@ -316,7 +316,6 @@ button,
   }
 
   .footer {
-    height: 768px;
     position: relative;
     padding-top: 65px;
     .buld-top {
