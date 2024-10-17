@@ -317,14 +317,10 @@ button,
 
   .footer {
     position: relative;
+    height: 100vh;
     padding-top: 65px;
     .buld-top {
       top: 85px;
-    }
-
-    
-    .footer_text {
-      height: 768px;
     }
   }
 }
@@ -560,12 +556,9 @@ button,
   .footer {
     position: relative;
     padding-top: 40px;
+    height: 100vh;
     .buld-top {
       top: 50px;
-    }
-
-    .footer_text {
-      height: 667px;
     }
   }
 }
