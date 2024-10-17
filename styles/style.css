@@ -250,7 +250,7 @@ button,
 
 .footer_text {
   justify-self: center;
-  align-self: center;
+  align-content: center;
   color: var(--head-text-color);
   text-shadow: 2px 2px var(--shadow-text);
 }
@@ -311,12 +311,16 @@ button,
   }
 
   .footer {
-    width: 1024px;
     height: 768px;
     position: relative;
     padding-top: 65px;
     .buld-top {
       top: 85px;
+    }
+
+    
+    .footer_text {
+      height: 768px;
     }
   }
 }
@@ -419,12 +423,14 @@ button,
   }
 
   .footer {
-    width: 768px;
-    height: 1024px;
     position: relative;
     padding-top: 65px;
     .buld-top {
       top: 80px;
+    }
+    
+    .footer_text {
+      height: 1024px;
     }
   }
 }
@@ -552,12 +558,14 @@ button,
   }
 
   .footer {
-    width: 375px;
-    height: 667px;
     position: relative;
     padding-top: 40px;
     .buld-top {
       top: 50px;
+    }
+
+    .footer_text {
+      height: 667px;
     }
   }
 }
