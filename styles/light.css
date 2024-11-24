@@ -14,7 +14,7 @@
   --head-text-color: #ffc2e6;
   --shadow-text: #ff0070;
   --background-text-color: #ff8dcb;
-  --second-text-color: #353430;
+  --WithBackground-text-color: #353430;
   --third-text-color: #353430;
   --buld-text-color: rgba(0, 0, 0, 0);
   --rec-img: none;
@@ -33,7 +33,7 @@
     --head-text-color: #ffc2e6;
     --shadow-text: #ff0070;
     --background-text-color: #ff8dcb;
-    --second-text-color: #353430;
+    --WithBackground-text-color: #353430;
     --third-text-color: #353430;
     --buld-text-color: rgba(0, 0, 0, 0);
     --rec-img: none;
