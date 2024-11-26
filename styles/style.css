@@ -20,7 +20,7 @@ button,
   background-color: var(--back-color);
   margin: 0px;
   min-height: 100vh;
-
+  max-width: 1024px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,17 +70,34 @@ button,
   min-height: 25px;
 }
 
-.buld-top::before {
-  content: "REC";
+.REC {
+  display: flex;
+  gap: 10px;
   position: absolute;
-  right: 8px;
+  top: 20px;
+  right: 29px;
   font-size: 18px;
   color: var(--buld-text-color);
-  background-image: var(--rec-img);
-  padding-right: 20px;
-  background-position: center right;
-  background-size: 9px;
-  background-repeat: no-repeat;
+}
+
+.circle{
+  position: relative;
+  margin-top: 8px;
+  width: 9px; 
+  height: 9px;
+  background: var(--buld-text-color);
+  border-radius: 50%;
+}
+
+.circle-blur{
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 15px; 
+  height: 15px;
+  background: var(--buld-text-color);
+  border-radius: 50%;
+  filter: blur(4px);
 }
 
 .buld-bottom {
@@ -149,6 +166,7 @@ button,
 
 @media (min-width: 768px) {
   .text-head {
+    padding-top: 30px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     align-self: center;
 
@@ -163,7 +181,7 @@ button,
   margin-left: clamp(0.625rem, 0.029rem + 2.545vw, 1.25rem);
   margin-right: clamp(0.625rem, 0.029rem + 2.545vw, 1.25rem);
   background-color: var(--background-text-color);
-  color: var(--WithBackground-text-color);
+  color: var(--Wbackground-text-color);
 }
 
 @media (max-width: 768px){
@@ -195,7 +213,7 @@ button,
 }
 
 .topic-info {
-  color: var(--first-text-color);
+  color: var(--significant-text-color);
   font-weight: 700;
   font-size: 18px;
 }
@@ -226,27 +244,27 @@ button,
   font-weight: 700;
   font-size: 18px;
   background-color: var(--background-text-color);
-  color: var(--WithBackground-text-color);
+  color: var(--Wbackground-text-color);
 }
 
 .paragraph-text {
   font-weight: 400;
   font-size: 18px;
-  color: var(--third-text-color);
+  color: var(--info-text-color);
 }
 
 .link {
-  color: var(--third-text-color);
+  color: var(--info-text-color);
   text-decoration: none;
   text-shadow: 2px 2px var(--shadow-text);
 }
 
 .link:hover {
-  border-bottom: 1px solid var(--third-text-color);
+  border-bottom: 1px solid var(--info-text-color);
 }
 
 .link:focus {
-  border: 1px solid var(--third-text-color);
+  border: 1px solid var(--info-text-color);
 }
 
 .info-img {
@@ -345,9 +363,6 @@ button,
 }
 
 @media (768px <= width < 1024px) {
-  .decorated-zone{
-    grid-template-rows: 438px 99px 462px;
-  }
 
   .header__theme-menu {
     justify-content: end;
@@ -469,13 +484,7 @@ button,
     display: grid;
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  .info:first-child {
-    padding-top: 40px;
-  }
-
-  
+  }  
 
   .info-img {
     gap: 10px;
