@@ -9,13 +9,13 @@
   --buld-color: #353430;
   --back-color: #fff1f7;
   --cover-image: url(../images/cover-image-light.png);
-  --first-text-color: #353430;
-  --first-text-color-translucent: rgba(50, 49, 45, 0.4);
+  --significant-text-color: #353430;
+  --significant-text-color-translucent: rgba(50, 49, 45, 0.4);
   --head-text-color: #ffc2e6;
   --shadow-text: #ff0070;
   --background-text-color: #ff8dcb;
-  --WithBackground-text-color: #353430;
-  --third-text-color: #353430;
+  --Wbackground-text-color: #353430;
+  --info-text-color: #353430;
   --buld-text-color: rgba(0, 0, 0, 0);
   --rec-img: none;
 }
@@ -28,13 +28,13 @@
     --buld-color: #353430;
     --back-color: #fff1f7;
     --cover-image: url(../images/cover-image-light.png);
-    --first-text-color: #353430;
-    --first-text-color-translucent: rgba(50, 49, 45, 0.4);
+    --significant-text-color: #353430;
+    --significant-text-color-translucent: rgba(50, 49, 45, 0.4);
     --head-text-color: #ffc2e6;
     --shadow-text: #ff0070;
     --background-text-color: #ff8dcb;
-    --WithBackground-text-color: #353430;
-    --third-text-color: #353430;
+    --Wbackground-text-color: #353430;
+    --info-text-color: #353430;
     --buld-text-color: rgba(0, 0, 0, 0);
     --rec-img: none;
   }
