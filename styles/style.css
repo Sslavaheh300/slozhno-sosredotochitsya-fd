@@ -88,10 +88,17 @@ button,
   display: flex;
   gap: 10px;
   position: absolute;
-  top: 20px;
-  right: 29px;
+  top: 10px;
+  right: 19px;
   font-size: 18px;
   color: var(--buld-text-color);
+}
+
+@media (width >= 768px) {
+  .PEC{
+    top: 20px;
+    right: 29px;
+  }
 }
 
 .circle {
@@ -438,6 +445,10 @@ button,
 }
 
 @media (width < 768px) {
+  .page{
+    gap: 0px;
+  }
+
   .header {
     grid-template-rows: 238px 192px 238px;
   }
@@ -478,6 +489,7 @@ button,
   .main {
     display: grid;
     gap: 68px;
+    padding-top: 40px;
   }
 
   .info {
@@ -526,5 +538,6 @@ button,
 
   .footer {
     position: relative;
+    margin-top: 20px;
   }
 }
