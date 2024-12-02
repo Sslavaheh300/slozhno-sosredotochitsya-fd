@@ -106,8 +106,8 @@ button,
   box-shadow: 0 0 4px 2px var(--buld-text-color);
 }
 
-@media (width >= 768px) {
-  .REC {
+@media (width >= 768px){
+  .REC{
     top: 22px;
     right: 48px;
   }
@@ -183,7 +183,7 @@ button,
   font-size: 18px;
 }
 
-.header__theme-menu-button_active {
+.header__theme-menu-button_active{
   border: 1px solid var(--significant-text-color);
   padding-left: 12px;
   padding-right: 12px;
@@ -238,6 +238,11 @@ button,
 }
 
 @media (min-width: 768px) {
+  .main {
+    display: grid;
+    gap: 82px;
+  }
+  
   .info {
     width: clamp(48rem, 0rem + 100vw, 64rem);
   }
@@ -251,12 +256,6 @@ button,
   color: var(--significant-text-color);
   font-weight: 700;
   font-size: 18px;
-}
-
-@media (min-width: 1024px) {
-  .topic-info {
-    width: 1024px;
-  }
 }
 
 @media (min-width: 768px) {
@@ -352,11 +351,6 @@ button,
     margin-top: 77px;
   }
 
-  .main {
-    display: grid;
-    gap: 82px;
-  }
-
   .info.info-help {
     display: grid;
     .paragraphs-info {
@@ -422,11 +416,6 @@ button,
     display: grid;
   }
 
-  .main {
-    display: grid;
-    gap: 82px;
-  }
-
   .info-help {
     .paragraphs-info {
       width: clamp(45.5rem, -2.5rem + 100vw, 61.5rem);
@@ -469,7 +458,7 @@ button,
 }
 
 @media (width < 768px) {
-  .page {
+  .page{
     gap: 0px;
   }
 
