@@ -3,7 +3,8 @@ p,
 .header__theme-menu-list,
 .cover,
 .cover_text,
-h2 {
+h2,
+h3 {
   margin: 0;
   padding: 0;
 }
@@ -260,7 +261,7 @@ button,
 
 @media (min-width: 768px) {
   .info-img.topic-info {
-    width: clamp(45.5rem, -2.5rem + 100vw, 61.5rem);
+    width: clamp(45.5rem, 13.25rem + 67.188vw, 56.25rem);
   }
 
   .topic-info {
