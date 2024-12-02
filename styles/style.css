@@ -2,10 +2,7 @@ p,
 .buld,
 .header__theme-menu-list,
 .cover,
-.cover_text,
-h2,
-h3,
-h4 {
+.cover_text {
   margin: 0;
   padding: 0;
 }
