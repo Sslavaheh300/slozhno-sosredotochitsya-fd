@@ -231,7 +231,7 @@ button,
 .info {
   width: clamp(23.438rem, 0rem + 100vw, 48rem);
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 19px;
   gap: 20px;
   display: flex;
 }
@@ -260,7 +260,7 @@ button,
 @media (min-width: 768px) {
   .info-img {
     .topic-text {
-      width: clamp(45.5rem, -1.375rem + 97.656vw, 61.125rem);
+      width: clamp(45.5rem, -2.313rem + 99.609vw, 61.438rem);
     }
   }
 
