@@ -253,6 +253,12 @@ button,
   font-size: 18px;
 }
 
+@media (min-width: 1024px) {
+  .topic-info {
+    width: 1024px;
+  }
+}
+
 @media (min-width: 768px) {
   .topic-info {
     width: clamp(14.75rem, -0.055rem + 30.844vw, 19.685rem);
