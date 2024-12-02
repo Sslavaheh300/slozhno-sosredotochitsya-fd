@@ -260,6 +260,7 @@ button,
 
 @media (min-width: 768px) {
   .topic-info {
+    width: clamp(14.75rem, -0.055rem + 30.844vw, 19.685rem);
   }
 }
 
@@ -286,8 +287,8 @@ button,
   color: var(--Wbackground-text-color);
 }
 
-.info-img.topic-text{
-  max-width: 1024px;
+.info-img.topic-text {
+  max-width: 984px;
 }
 
 .paragraph-text {
