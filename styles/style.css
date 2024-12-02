@@ -106,8 +106,8 @@ button,
   box-shadow: 0 0 4px 2px var(--buld-text-color);
 }
 
-@media (width >= 768px){
-  .REC{
+@media (width >= 768px) {
+  .REC {
     top: 22px;
     right: 48px;
   }
@@ -183,7 +183,7 @@ button,
   font-size: 18px;
 }
 
-.header__theme-menu-button_active{
+.header__theme-menu-button_active {
   border: 1px solid var(--significant-text-color);
   padding-left: 12px;
   padding-right: 12px;
@@ -242,7 +242,7 @@ button,
     display: grid;
     gap: 82px;
   }
-  
+
   .info {
     width: clamp(48rem, 0rem + 100vw, 64rem);
   }
@@ -458,7 +458,7 @@ button,
 }
 
 @media (width < 768px) {
-  .page{
+  .page {
     gap: 0px;
   }
 
