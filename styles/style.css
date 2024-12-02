@@ -259,6 +259,10 @@ button,
 }
 
 @media (min-width: 768px) {
+  .info-img.topic-info {
+    width: clamp(45.5rem, -2.5rem + 100vw, 61.5rem);
+  }
+
   .topic-info {
     width: clamp(14.75rem, -0.055rem + 30.844vw, 19.685rem);
   }
@@ -285,10 +289,6 @@ button,
   font-size: 18px;
   background-color: var(--background-text-color);
   color: var(--Wbackground-text-color);
-}
-
-.info-img.topic-text {
-  max-width: 984px;
 }
 
 .paragraph-text {
