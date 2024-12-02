@@ -17,13 +17,12 @@ html {
   margin: auto;
 }
 body {
-  display: table-cell;
+  display: grid;
   vertical-align: middle;
 }
 
 button,
-.buld-text,
-.rec::before {
+.buld-text {
   font-family: "IBM Plex Mono", sans-serif;
 }
 
@@ -76,6 +75,7 @@ button,
 
 .buld-top {
   position: absolute;
+  font-family: "IBM Plex Mono", sans-serif;
   top: 20px;
   right: 20px;
   border-top: 1px solid var(--buld-color);
@@ -85,19 +85,31 @@ button,
 }
 
 .REC {
-  display: flex;
-  gap: 10px;
   position: absolute;
-  top: 10px;
-  right: 19px;
+  display: flex;
   font-size: 18px;
+  width: 400;
   color: var(--buld-text-color);
+  top: 12px;
+  right: 38px;
+}
+
+.REC::after {
+  content: "";
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  top: 6px;
+  left: 42px;
+  border-radius: 50%;
+  background-color: var(--buld-text-color);
+  box-shadow: 0 0 4px 2px var(--buld-text-color);
 }
 
 @media (width >= 768px) {
-  .PEC{
-    top: 20px;
-    right: 29px;
+  .REC {
+    top: 22px;
+    right: 48px;
   }
 }
 
@@ -169,6 +181,12 @@ button,
   color: var(--significant-text-color);
   font-weight: 400;
   font-size: 18px;
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--significant-text-color);
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .cover-info {
@@ -243,7 +261,7 @@ button,
 
 .paragraphs-info {
   display: grid;
-  gap: 19px;
+  gap: 20px;
 }
 
 @media (min-width: 768px) {
@@ -265,6 +283,7 @@ button,
 }
 
 .paragraph-text {
+  line-height: 23.4px;
   font-weight: 400;
   font-size: 18px;
   color: var(--info-text-color);
@@ -319,22 +338,23 @@ button,
 
 @media (min-width: 1024px) {
   .header__theme-menu {
-    padding-top: 20px;
+    padding-top: 18px;
   }
 
   .cover_text {
     max-height: 71px;
-    margin-top: 75px;
+    margin-top: 77px;
   }
 
   .main {
     display: grid;
-    gap: 88px;
+    gap: 82px;
   }
 
   .info.info-help {
     display: grid;
     .paragraphs-info {
+      gap: 19px;
       display: flex;
       width: 984px;
       flex-wrap: wrap;
@@ -349,7 +369,6 @@ button,
   }
 
   .info-img {
-    padding-top: 12px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -399,7 +418,7 @@ button,
 
   .main {
     display: grid;
-    gap: 90px;
+    gap: 82px;
   }
 
   .info-help {
@@ -409,7 +428,6 @@ button,
   }
 
   .info-img {
-    padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -445,12 +463,8 @@ button,
 }
 
 @media (width < 768px) {
-  .page{
+  .page {
     gap: 0px;
-  }
-
-  .header {
-    grid-template-rows: 238px 192px 238px;
   }
 
   .buld-top {
@@ -482,13 +496,12 @@ button,
 
   .cover_text {
     width: 355px;
-    height: 117px;
     margin-top: 55px;
   }
 
   .main {
     display: grid;
-    gap: 68px;
+    gap: 52px;
     padding-top: 40px;
   }
 
@@ -500,7 +513,6 @@ button,
 
   .info-img {
     gap: 10px;
-    padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
     width: 355px;
