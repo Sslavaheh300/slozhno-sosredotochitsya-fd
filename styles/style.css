@@ -259,7 +259,7 @@ button,
 
 @media (min-width: 768px) {
   .info-img.topic-info {
-    width: clamp(45.5rem, 13.25rem + 67.188vw, 56.25rem);
+    width: clamp(45.5rem, -2.5rem + 100vw, 61.5rem);
   }
 
   .topic-info {
