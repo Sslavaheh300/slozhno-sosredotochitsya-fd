@@ -10,6 +10,7 @@ p,
 html,
 body {
   height: 100%;
+  overflow: hidden;
 }
 html {
   display: table;
@@ -231,7 +232,7 @@ button,
 .info {
   width: clamp(23.438rem, 0rem + 100vw, 48rem);
   padding-left: 20px;
-  padding-right: 19px;
+  padding-right: 20px;
   gap: 20px;
   display: flex;
 }
