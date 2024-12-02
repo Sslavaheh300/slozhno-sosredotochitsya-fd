@@ -258,9 +258,9 @@ button,
 }
 
 @media (min-width: 768px) {
-  .info-img{
+  .info-img {
     .topic-text {
-      width: clamp(45.5rem, -2.5rem + 100vw, 61.5rem);
+      width: clamp(45.5rem, -1.75rem + 98.438vw, 61.45rem);
     }
   }
 
