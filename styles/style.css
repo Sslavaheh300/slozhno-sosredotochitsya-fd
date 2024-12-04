@@ -430,7 +430,6 @@ button,
   }
 
   .photos {
-    grid-template-columns: 230px 230px 230px;
     grid-template-rows: 192px 230px 318px;
   }
 
@@ -511,8 +510,6 @@ button,
   .info-img {
     gap: 10px;
     padding-left: 10px;
-    padding-right: 10px;
-    width: 355px;
   }
 
   .photos {
@@ -521,27 +518,22 @@ button,
   }
 
   .sunset {
-    width: 355px;
     min-height: 142px;
   }
 
   .ice-cream {
-    width: 355px;
     min-height: 355px;
   }
 
   .tape {
-    width: 355px;
     min-height: 237px;
   }
 
   .books {
-    width: 355px;
     min-height: 355px;
   }
 
   .street {
-    width: 355px;
     min-height: 237px;
   }
 
