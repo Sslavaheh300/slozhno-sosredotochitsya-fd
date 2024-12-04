@@ -7,6 +7,8 @@ p,
   padding: 0;
 }
 
+*{border: 1px solid red;}
+
 html,
 body {
   height: 100%;
@@ -372,7 +374,6 @@ button,
 
   .info-img {
     padding-left: 20px;
-    padding-right: 20px;
   }
 
   .photos {
@@ -508,6 +509,7 @@ button,
   }
 
   .info-img {
+    width: clamp(22.813rem, 0.568rem + 94.911vw, 46.125rem);
     gap: 10px;
     padding-left: 10px;
   }
