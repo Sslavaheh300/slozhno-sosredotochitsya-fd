@@ -1,3 +1,4 @@
+/* v1 */
 p,
 .buld,
 .header__theme-menu-list,
@@ -163,15 +164,12 @@ button,
 }
 
 .header__theme-menu-item:hover {
-  border: 1px solid var(--significant-text-color-translucent);
+  outline: 1px solid var(--significant-text-color-translucent);
 }
 
-.header__theme-menu-item:focus {
+.header__theme-menu-button:focus {
+  outline: none;
   border-bottom: 1px solid var(--significant-text-color);
-}
-
-.header__theme-menu-item:active {
-  border: 1px solid var(--significant-text-color);
 }
 
 .header__theme-menu-button {
@@ -183,7 +181,7 @@ button,
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--significant-text-color);
+  outline: 1px solid var(--significant-text-color);
   padding-left: 12px;
   padding-right: 12px;
 }
@@ -301,7 +299,7 @@ button,
 .link {
   color: var(--info-text-color);
   text-decoration: none;
-  text-shadow: 2px 2px var(--shadow-text);
+  text-shadow: 1px 1px var(--shadow-text);
 }
 
 .link:hover {
@@ -309,7 +307,8 @@ button,
 }
 
 .link:focus {
-  border: 1px solid var(--info-text-color);
+  border: none;
+  outline: 1px solid var(--info-text-color);
 }
 
 .info-img {
