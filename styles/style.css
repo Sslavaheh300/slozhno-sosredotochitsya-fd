@@ -226,9 +226,8 @@ button,
 }
 
 .info {
-  width: clamp(23.438rem, 0rem + 100vw, 48rem);
+  width: clamp(22.813rem, 1.164rem + 92.366vw, 45.5rem);
   padding-left: 20px;
-  padding-right: 20px;
   gap: 20px;
   display: flex;
 }
@@ -282,11 +281,16 @@ button,
   gap: 10px;
 }
 
-.topic-text {
+.topic-text,
+.lead-text {
   font-weight: 700;
   font-size: 18px;
   background-color: var(--background-text-color);
   color: var(--hover-background-text-color);
+}
+
+.lead-text{
+  font-weight: 400;
 }
 
 .paragraph-text {
@@ -358,7 +362,7 @@ button,
     .paragraphs-info {
       gap: 19px;
       display: flex;
-      width: 984px;
+      width: 983px;
       flex-wrap: wrap;
       .paragraph-blocks {
         grid-template-rows: auto 1fr;
@@ -502,7 +506,6 @@ button,
   .info {
     display: grid;
     padding-left: 10px;
-    padding-right: 10px;
   }
 
   .info-img {
@@ -538,6 +541,5 @@ button,
 
   .footer {
     position: relative;
-    margin-top: 20px;
   }
 }
