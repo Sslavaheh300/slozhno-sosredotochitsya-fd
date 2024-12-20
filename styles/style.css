@@ -8,6 +8,10 @@ p,
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 html,
 body {
   height: 100%;
@@ -56,14 +60,14 @@ button,
 .decorated-zone {
   position: relative;
   grid-template-rows: 1fr auto 1fr;
-  width: clamp(23.438rem, 0rem + 100vw, 48rem);
+  width: clamp(23.438rem, -0.05rem + 100vw, 48rem);
   min-height: 668px;
   height: 100vh;
 }
 
 @media (min-width: 768px) {
   .decorated-zone {
-    width: clamp(48rem, 0rem + 100vw, 64rem);
+    width: clamp(48rem, -0.05rem + 100vw, 64rem);
   }
 }
 
@@ -226,7 +230,7 @@ button,
 }
 
 .info {
-  width: clamp(22.813rem, 1.164rem + 92.366vw, 45.5rem);
+  width: clamp(22.813rem, 1.164rem + 91.166vw, 45.5rem);
   padding-left: 20px;
   gap: 20px;
   display: flex;
@@ -239,7 +243,7 @@ button,
   }
 
   .info {
-    width: clamp(48rem, 0rem + 100vw, 64rem);
+    width: clamp(48rem, -8.889rem + 111.719vw, 64rem);
   }
 }
 
@@ -509,7 +513,7 @@ button,
   }
 
   .info-img {
-    width: clamp(22.813rem, 0.568rem + 94.911vw, 46.125rem);
+    width: clamp(22.813rem, 0.568rem + 93.911vw, 46.125rem);
     gap: 10px;
     padding-left: 10px;
   }
@@ -540,6 +544,7 @@ button,
   }
 
   .footer {
+    margin-top: 40px;
     position: relative;
   }
 }
