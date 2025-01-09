@@ -1,4 +1,4 @@
-/* vfinal */
+/* final */
 p,
 .buld,
 .header__theme-menu-list,
@@ -40,13 +40,13 @@ button,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 40px;
+  gap: 60px;
   background-image: var(--cover-image);
   background-position: center;
   background-size: cover;
 }
 
-@media (width >= 768px) {
+@media (a >= 768px) {
   .page {
     gap: 60px;
   }
@@ -60,15 +60,9 @@ button,
 .decorated-zone {
   position: relative;
   grid-template-rows: 1fr auto 1fr;
-  width: clamp(23.438rem, -0.05rem + 100vw, 48rem);
   min-height: 668px;
+  width: 100vw;
   height: 100vh;
-}
-
-@media (min-width: 768px) {
-  .decorated-zone {
-    width: clamp(48rem, -0.05rem + 100vw, 64rem);
-  }
 }
 
 .buld-text {
@@ -256,12 +250,6 @@ button,
 }
 
 @media (min-width: 768px) {
-  .info-img {
-    .topic-text {
-      width: clamp(45.5rem, -2.313rem + 99.609vw, 61.438rem);
-    }
-  }
-
   .topic-info {
     width: clamp(14.75rem, -0.055rem + 30.844vw, 19.685rem);
   }
