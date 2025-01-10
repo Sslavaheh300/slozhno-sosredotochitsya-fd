@@ -61,7 +61,6 @@ button,
   position: relative;
   grid-template-rows: 1fr auto 1fr;
   min-height: 668px;
-  width: 100vw;
   height: 100vh;
 }
 
@@ -80,6 +79,12 @@ button,
   border-right: 1px solid var(--buld-color);
   width: 25px;
   min-height: 25px;
+}
+
+@media (width: 1024px) {
+  .buld-top {
+    right: 0px;
+  }
 }
 
 .REC {
@@ -111,6 +116,12 @@ button,
   }
 }
 
+@media (width: 1024px) {
+  .REC {
+    right: 28px;
+  }
+}
+
 .circle {
   position: relative;
   margin-top: 8px;
@@ -139,6 +150,12 @@ button,
   border-left: 1px solid var(--buld-color);
   width: 25px;
   min-height: 25px;
+}
+
+@media (width: 1024px) {
+  .buld-bottom {
+    left: 0px;
+  }
 }
 
 .header__theme-menu {
@@ -206,6 +223,19 @@ button,
   }
 }
 
+@media (width: 1024px) {
+  .text-head {
+    position: relative;
+    left: -20px;
+  }
+
+  .footer_text {
+    .text-head {
+      position: static;
+    }
+  }
+}
+
 .cover_text {
   font-weight: 700;
   font-size: 18px;
@@ -215,6 +245,12 @@ button,
   background-color: var(--background-text-color);
   color: var(--hover-background-text-color);
   align-self: start;
+}
+
+@media (width: 1024px) {
+  .cover_text {
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 768px) {
